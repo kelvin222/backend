@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const middleware = require("../middleware");
 const path = require("path");
 const config = require('../config');
+const multer = require("multer");
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {

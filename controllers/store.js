@@ -2,7 +2,7 @@ const stores = require('../models/store');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const middleware = require("../middleware");
-const path = require("path");
+const multer = require("multer");
 const config = require('../config');
 
 const storage = multer.diskStorage({

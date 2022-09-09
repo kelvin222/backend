@@ -4,7 +4,7 @@ const path = require("path");
 const fileHelper = require('../util/file');
 const category = require('../models/category');
 const middleware = require("../middleware");
-const path = require("path");
+const multer = require("multer");
 const config = require('../config');
 
 const storage = multer.diskStorage({
